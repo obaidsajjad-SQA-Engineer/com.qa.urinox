@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-01T22:48:21 PKT" name="Default suite" finished-at="2024-09-01T22:51:04 PKT" duration-ms="162657">
+    <groups>
+    </groups>
+    <test started-at="2024-09-01T22:48:21 PKT" name="Default test" finished-at="2024-09-01T22:51:04 PKT" duration-ms="162657">
+      <class name="com.qa.testcases.PictureAndResultsTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.qa.testcases.PictureAndResultsTest@63376bed]" started-at="2024-09-01T22:50:16 PKT" name="initialize" finished-at="2024-09-01T22:50:24 PKT" duration-ms="8243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="CameraPictureAndResults()[pri:0, instance:com.qa.testcases.PictureAndResultsTest@63376bed]" started-at="2024-09-01T22:50:24 PKT" name="CameraPictureAndResults" description="Picture &amp; Results Test" finished-at="2024-09-01T22:51:03 PKT" depends-on-methods="com.qa.testcases.EditProfileTest.EditProfile" duration-ms="39420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CameraPictureAndResults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.PictureAndResultsTest@63376bed]" started-at="2024-09-01T22:51:03 PKT" name="tearDown" finished-at="2024-09-01T22:51:04 PKT" duration-ms="445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CameraPictureAndResults status=SUCCESS method=PictureAndResultsTest.CameraPictureAndResults()[pri:0, instance:com.qa.testcases.PictureAndResultsTest@63376bed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.PictureAndResultsTest -->
+      <class name="com.qa.testcases.RegistrationTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.qa.testcases.RegistrationTest@53fb3dab]" started-at="2024-09-01T22:48:21 PKT" name="initialize" finished-at="2024-09-01T22:48:30 PKT" duration-ms="9205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="accountRegistration()[pri:0, instance:com.qa.testcases.RegistrationTest@53fb3dab]" started-at="2024-09-01T22:48:30 PKT" name="accountRegistration" description="Register Account" finished-at="2024-09-01T22:48:50 PKT" duration-ms="19787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountRegistration -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.RegistrationTest@53fb3dab]" started-at="2024-09-01T22:48:50 PKT" name="tearDown" finished-at="2024-09-01T22:48:50 PKT" duration-ms="384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountRegistration status=SUCCESS method=RegistrationTest.accountRegistration()[pri:0, instance:com.qa.testcases.RegistrationTest@53fb3dab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.RegistrationTest -->
+      <class name="com.qa.testcases.EditProfileTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.qa.testcases.EditProfileTest@cb0755b]" started-at="2024-09-01T22:49:25 PKT" name="initialize" finished-at="2024-09-01T22:49:33 PKT" duration-ms="8142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="EditProfile()[pri:0, instance:com.qa.testcases.EditProfileTest@cb0755b]" started-at="2024-09-01T22:49:33 PKT" name="EditProfile" description="Edit Profile" finished-at="2024-09-01T22:50:15 PKT" depends-on-methods="com.qa.testcases.LoginTest.accountLogin" duration-ms="42342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfile -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.EditProfileTest@cb0755b]" started-at="2024-09-01T22:50:15 PKT" name="tearDown" finished-at="2024-09-01T22:50:16 PKT" duration-ms="401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfile status=SUCCESS method=EditProfileTest.EditProfile()[pri:0, instance:com.qa.testcases.EditProfileTest@cb0755b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.EditProfileTest -->
+      <class name="com.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.qa.testcases.LoginTest@33065d67]" started-at="2024-09-01T22:48:50 PKT" name="initialize" finished-at="2024-09-01T22:48:59 PKT" duration-ms="8469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="accountLogin()[pri:0, instance:com.qa.testcases.LoginTest@33065d67]" started-at="2024-09-01T22:48:59 PKT" name="accountLogin" description="Login Account" finished-at="2024-09-01T22:49:24 PKT" depends-on-methods="com.qa.testcases.RegistrationTest.accountRegistration" duration-ms="25367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginTest@33065d67]" started-at="2024-09-01T22:49:24 PKT" name="tearDown" finished-at="2024-09-01T22:49:25 PKT" duration-ms="409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountLogin status=SUCCESS method=LoginTest.accountLogin()[pri:0, instance:com.qa.testcases.LoginTest@33065d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
